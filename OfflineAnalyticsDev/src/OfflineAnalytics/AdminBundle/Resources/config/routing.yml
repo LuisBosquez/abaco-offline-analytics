@@ -1,0 +1,8 @@
+offline_analytics_admin_homepage:
+    path:     /admin
+    defaults: { _controller: OfflineAnalyticsAdminBundle:Default:index }
+
+
+client:
+    path: /admin/client/{client_id}
+    defaults: {_controller: OfflineAnalyticsAdminBundle:Default:getClient }

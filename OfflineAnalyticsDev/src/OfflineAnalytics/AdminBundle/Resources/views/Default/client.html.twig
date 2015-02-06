@@ -1,0 +1,21 @@
+{% extends 'base.html.twig' %}
+{% block title %}Cliente{% endblock %}
+
+{% block body %}
+	<h1>Nombre: {{ client.name }}</h1>
+	<p>ID: {{ client.id }}</p>
+	
+	<ul>
+	{% for crmObject in client.crmObjects %}
+	
+    	<li>{{ crmObject.id }}</li>
+        <li>{{ crmObject.type }}</li>
+	    <li>{{ crmObject.url }}</li>
+       	<li>{{ crmObject.trackingId }}</li>
+ 	    <li>{{ crmObject.lastRetrieved }}</li>
+ 	    <li>{{ crmObject.date_fieldname }}</li>
+       	<li>{{ crmObject.cid_fieldname }}</li>
+ 	    <li>{% if crmObject.isActive == 1 %}{{ "Activo" }}{% else %}{{ "Inactivo" }}{% endif %}</li>
+    {% endfor %}
+    </ul>
+{% endblock %}

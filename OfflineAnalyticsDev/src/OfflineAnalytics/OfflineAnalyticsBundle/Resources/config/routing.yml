@@ -1,0 +1,3 @@
+offline_analytics_offline_analytics_homepage:
+    path:     /upload
+    defaults: { _controller: OfflineAnalyticsOfflineAnalyticsBundle:Default:index }

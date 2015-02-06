@@ -1,0 +1,17 @@
+# This file is auto-generated during the composer install
+parameters:
+    database_driver: pdo_mysql
+    database_host: us-cdbr-azure-west-b.cleardb.com
+    database_port: null
+    database_name: AbacoOfflineAnalyticsAdmin
+    database_user: b250dd54974739
+    database_password: d8db4c2c
+    mailer_transport: smtp
+    mailer_host: 127.0.0.1
+    mailer_user: null
+    mailer_password: null
+    locale: en
+    secret: ThisTokenIsNotSoSecretChangeIt
+    debug_toolbar: true
+    debug_redirects: false
+    use_assetic_controller: true

@@ -1,0 +1,12 @@
+offline_analytics_core:
+    resource: "@OfflineAnalyticsCoreBundle/Resources/config/routing.yml"
+    prefix:   /
+
+offline_analytics_admin:
+    resource: "@OfflineAnalyticsAdminBundle/Resources/config/routing.yml"
+    prefix:   /offlineAnalytics
+
+offline_analytics_offline_analytics:
+    resource: "@OfflineAnalyticsOfflineAnalyticsBundle/Resources/config/routing.yml"
+    prefix:   /_offlineAnalytics
+

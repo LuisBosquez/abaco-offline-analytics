@@ -1,0 +1,4 @@
+services:
+#    offline_analytics_core.example:
+#        class: OfflineAnalytics\CoreBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]

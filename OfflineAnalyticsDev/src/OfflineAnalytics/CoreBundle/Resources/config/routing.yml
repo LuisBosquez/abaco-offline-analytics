@@ -1,0 +1,3 @@
+offline_analytics_core_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: OfflineAnalyticsCoreBundle:Default:index }
